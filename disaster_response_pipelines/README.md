@@ -8,3 +8,6 @@
 
     
 
+# To-Do
+
+Completed data cleaning part in process_data; go back to Portfolio project to understand the py. basics 
