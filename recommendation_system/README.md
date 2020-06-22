@@ -28,7 +28,29 @@ Finally, you will complete a machine learning approach to building recommendatio
 
 ## Files 
 
+### Testing Files
 
+To make sure intermediate outputs are correct. These files are downloaded from Udacity. 
+
+*   `project_tests_py`
+
+*   `top_5.p`
+
+*   `top_10.p`
+
+*   `to_20.p`
+
+*   `user_item_matrix`
+
+### Data (`/data`)
+
+*   `articles_comunity.csv`
+
+*   `user-item-interaction.csv`
+
+### Notebook 
+
+*   `Recommendations_with_IBM.ipynb` 
 
 ## Acknowledgement 
 
