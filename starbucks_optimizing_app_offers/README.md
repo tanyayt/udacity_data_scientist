@@ -2,6 +2,26 @@
 
 ## Notes  [remove when project is complete]
 
+### Issue 1: Informational offer is completed by transactions in between viewed and expired
+
+ 
+
+### Issue 2: calcualte mean age, gender, membership days ..etc of each offer 
+
+showing they are similar but different viewed%; 
+
+### Issue 3: duplicated views 
+remove duplicated views 
+
+### Issue 4: unique match between receive-view-complete
+ranking by time 
+
+### Issue 5: transaction amount take 99% percentile
+remove outliers 
+
+### Issue 6: Data Matrix - consider expiry date 
+to remove false matched rows in cross-join case
+
 ## Goal
 
 1.  A Github repository of your work
