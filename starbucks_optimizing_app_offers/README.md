@@ -1,41 +1,8 @@
-# Capstone Project 
-
-## Notes  [remove when project is complete]
-
-### Issue 1: Informational offer is completed by transactions in between viewed and expired
-
- 
-
-### Issue 2: calcualte mean age, gender, membership days ..etc of each offer 
-
-showing they are similar but different viewed%; 
-
-### Issue 3: duplicated views 
-remove duplicated views 
-
-### Issue 4: unique match between receive-view-complete
-ranking by time 
-
-### Issue 5: transaction amount take 99% percentile
-remove outliers 
-
-### Issue 6: Data Matrix - consider expiry date 
-to remove false matched rows in cross-join case
-
-## Goal
-
-1.  A Github repository of your work
-2.  A blog post written for tech audience  or a deployed web app powered by data
-
-## Process 
-
-1.  Define the problem and investigate potential solutions
-2.  Analyze the problem through visualization
-3.  Implement algorithms and metrics, documenting the preprocessing, refinement and post-processing steps along the way 
-4.  Collect results, visualize significant quantities, validate/justify your results; make any concluding remarks about whether the implementation adequately solves the problem
-5.  Construct a blog post to document all the steps from start to finish
-
 # Project: Optimizing App Offers with Starbucks 
+
+*Read more in my [blog post](https://tanyayt.github.io/Optimizing-App-Offers-Starbucks/)*
+
+Starbucks sends their promotional offers to customers via email, social media channels and mobile Apps. It is important to understand customer behaviors in response to these offers to optimize the offer selections. In this project, I took a deep dive into Starbucks App data and built a machine learning model to predict whether a user will complete a promotional offer. 
 
 ## Dataset overview
 
@@ -83,3 +50,15 @@ Event log (306648 events x 4 fields)
     -   amount: (numeric) money spent in "transaction"
     -   reward: (numeric) money gained from "offer completed"
 -   time: (numeric) hours after start of test
+
+## File Organization
+
+*   `/data` folder has all the raw data files
+*   
+*   `/image` folder contains all image files, generated from 
+
+
+
+## Acknowledgement 
+
+I would like to thank Udacity's Data Scientist Nanodegree program for providing guidance in this project, and Starbucks for providing the data and business context. 
