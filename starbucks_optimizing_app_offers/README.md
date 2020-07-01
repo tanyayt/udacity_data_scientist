@@ -54,8 +54,42 @@ Event log (306648 events x 4 fields)
 ## File Organization
 
 *   `/data` folder has all the raw data files
-*   
-*   `/image` folder contains all image files, generated from 
+*   `Starbucks_Capstone_notebook.ipynb`: contains codes and output of exploration, cleaning, processing, and modelling process of the analysis. 
+*   `/image` folder contains all image files, generated from `Starbucks_Capstone_notebook.ipynb` 
+*   `/model` contains trained model Pickle files. These files can be reproduced, using `Starbucks_Capstone_notebook.ipynb` 
+
+# Software Requirement and Packages 
+
+The project is run on Python with the following packages imported: 
+
+```python
+import pandas as pd
+import numpy as np
+import math
+import json
+import matplotlib.pyplot as plt
+import seaborn as sns
+from datetime import datetime
+from scipy import stats
+
+%matplotlib inline 
+#there must be no space between % and matplotlib to make it work 
+
+# multi-line output 
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+
+# hide warnings - comment to disable
+import warnings
+warnings.filterwarnings('ignore')
+
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split,GridSearchCV
+from sklearn.metrics import roc_curve, confusion_matrix, auc
+from sklearn.metrics import classification_report
+from sklearn.ensemble import RandomForestClassifier
+import pickle
+```
 
 
 
