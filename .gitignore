@@ -23,3 +23,4 @@ data/.ipynb_checkpoints/movies_clean-checkpoint.csv
 collaborative_filtering/.ipynb_checkpoints/Collaborative Filtering - Solution-checkpoint.ipynb
 recommendation_system/2020-06-27-Recommendations_with_IBM.zip
 recommendation_system/Recommendations_with_IBM.html
+.DS_Store
