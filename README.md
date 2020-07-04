@@ -1,6 +1,10 @@
-# udacity_data_scientist
+# Included in this repository 
 
-## To-Do
-- download recourses for optional portfolio assignment 
-- continue recommendation engine development
-- pyothon notebook for work? 
+* Course materials in Udacity
+* Practice notebooks that are not suitable for further complete development 
+
+
+
+# Excluded in this repository
+
+* Stand-alone projects should have their own respositories on the root direcotry
